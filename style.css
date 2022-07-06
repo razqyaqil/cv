@@ -19,3 +19,135 @@ body{
     margin : 25px auto;
     display : flex;
 }
+
+.left{
+    background: #292b2f;
+    width: 250px;
+    padding: 0 10px;
+
+}
+
+.right{
+    width: calc(100% - 250px);
+
+}
+
+.left .imgHolder{
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.left .imgHolder img{
+    width: 200px;
+
+}
+
+.pb{
+    padding-bottom: 20px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;  
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: #3525af;
+    position: relative;
+    text-align: right;
+    margin-bottom: 15px;
+    word-break: keep-all;
+}
+
+.title:before{
+    content: "";
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100px;
+    height: 3px;
+    background: #3525af;
+}
+
+.left .icon{
+    font-size: 20px;
+    color: #9153c9;
+
+}
+
+
+.left .text{
+    text-transform: uppercase;
+    color: #9153c9;
+    font-size: 13px;
+}
+
+.contact .li_wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .li_wrap .text{
+    width: 75%;
+    word-break: keep-all ;
+    color: #ffff;
+}
+
+.contact .li_wrap .icon{
+    width: 50px;
+    height: 50px;
+    background: #ffff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.skill .li_wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.skill_wrap .title:before{
+    top: 35px;
+}
+
+.skill .li_wrap .text{
+    width: 75%;
+    word-break: keep-all ;
+    color: #ffff;
+}
+
+.skill .li_wrap .icon{
+    width: 50px;
+    height: 50px;
+    background: #ffff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.certification .li_wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.certification .li_wrap .text{
+    width: 100%;
+    word-break: keep-all ;
+    color: #ffff;
+    text-transform: none;
+}
+
+
+
