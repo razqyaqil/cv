@@ -9,19 +9,19 @@
 }
 
 body{
-    background: linear-gradient(to right, #3525af, #9153c9);
+    background: linear-gradient(to right bottom,#ECDBBA,#1d3356 )
 
 }
 
 .resume{
     width: 800px;
-    background: #ffff;
+    background: #fff;
     margin : 25px auto;
     display : flex;
 }
 
 .left{
-    background: #292b2f;
+    background: #191919;
     width: 250px;
     padding: 0 10px;
 
@@ -40,6 +40,8 @@ body{
 
 .left .imgHolder img{
     width: 200px;
+    background: #414141;
+    border-radius: 100px;
 
 }
 
@@ -48,12 +50,12 @@ body{
 }
 
 .title{
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;  
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     padding-bottom: 10px;
-    color: #3525af;
+    color: #ECDBBA;
     position: relative;
     text-align: right;
     margin-bottom: 15px;
@@ -67,19 +69,19 @@ body{
     right: 0;
     width: 100px;
     height: 3px;
-    background: #3525af;
+    background: #ECDBBA;
 }
 
 .left .icon{
     font-size: 20px;
-    color: #9153c9;
+    color: #2D4263;
 
 }
 
 
 .left .text{
     text-transform: uppercase;
-    color: #9153c9;
+    color: #2D4263;
     font-size: 13px;
 }
 
@@ -93,13 +95,13 @@ body{
 .contact .li_wrap .text{
     width: 75%;
     word-break: keep-all ;
-    color: #ffff;
+    color: #fff;
 }
 
 .contact .li_wrap .icon{
     width: 50px;
     height: 50px;
-    background: #ffff;
+    background: #fff;
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -107,33 +109,12 @@ body{
     margin-right: 15px;
 }
 
-.skill .li_wrap{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 15px;
-}
 
 .skill_wrap .title:before{
     top: 35px;
 }
 
-.skill .li_wrap .text{
-    width: 75%;
-    word-break: keep-all ;
-    color: #ffff;
-}
 
-.skill .li_wrap .icon{
-    width: 50px;
-    height: 50px;
-    background: #ffff;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 15px;
-}
 
 .certification .li_wrap{
     display: flex;
@@ -145,9 +126,66 @@ body{
 .certification .li_wrap .text{
     width: 100%;
     word-break: keep-all ;
-    color: #ffff;
+    color: #fff;
     text-transform: none;
 }
+
+.hobbies_wrap .title:before{
+    top: 35px;
+}
+
+.skill ul,
+.hobbies ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill .li_wrap,
+.hobbies .li_wrap{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skill .li_wrap{
+    background: #fff;
+}
+
+.skill .li_wrap .text,
+.hobbies .li_wrap .text{
+    margin-top: 5px;
+}
+
+.hobbies .li_wrap{
+    border: 2px solid #fff;
+
+}
+.hobbies .li_wrap .icon,
+.hobbies .li_wrap .text{
+    color: #fff;
+}
+
+.hobbies .li_wrap:hover{
+    background: #fff;
+}
+
+.hobbies .li_wrap:hover .icon,
+.hobbies .li_wrap:hover .text{
+    color: #2D4263
+}
+
+.header{
+    background: #191919;
+    padding: 15px 30px;
+    color: #fff;
+}
+
 
 
 
