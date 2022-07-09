@@ -6,6 +6,7 @@
     box-sizing: border-box;
     list-style: none;
     font-family: 'Ubuntu', sans-serif;
+    
 }
 
 body{
@@ -74,14 +75,14 @@ body{
 
 .left .icon{
     font-size: 20px;
-    color: #2D4263;
+    color: #1d3356;
 
 }
 
 
 .left .text{
     text-transform: uppercase;
-    color: #2D4263;
+    color: #1d3356;
     font-size: 13px;
 }
 
@@ -177,15 +178,105 @@ body{
 
 .hobbies .li_wrap:hover .icon,
 .hobbies .li_wrap:hover .text{
-    color: #2D4263
+    color: #1d3356
 }
 
 .header{
     background: #191919;
     padding: 15px 30px;
     color: #fff;
+    height: 240px;
+}
+
+.header .name{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ECDBBA
+}
+
+.header .role{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.header .about{
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+.right_inner{
+    padding: 30px;
+    color: #191919;
+}
+.right_inner .title::before{
+    top : 35px;
+}
+
+.right_inner .education{
+    margin-top: 30px;
+}
+.right_inner .portofolio{
+    margin-top: 30px;
 }
 
 
+.right_inner .li_wrap{
+    display: flex;
+    margin-top: 15px;
+}
 
+.right_inner .li_wrap .date{
+    width: 125px;
+    color: #1d3356;
+    margin-right: 5px;
+}
 
+.right_inner .li_wrap .info{
+    width: calc(100% - 125px);
+    padding-left: 25px;
+    position: relative;
+}
+
+.right_inner .li_wrap .info_title{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #1d3356;
+}
+
+.right_inner .li_wrap .info_com{
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.right_inner .li_wrap .info_cont{
+    margin-top: 15px;
+
+}
+.right_inner .li_wrap .info:before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: #1d3356;
+    border-radius: 50%;
+
+    
+}
+
+.right_inner .li_wrap .info:after{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    width: 2px;
+    height: 90%;
+    background-color: #1d3356;
+   
+
+    
+}
